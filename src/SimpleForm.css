@@ -1,0 +1,53 @@
+.simpleForm {
+    min-width: 350px;
+}
+
+.simpleForm__wrapper {
+    padding: 8px 0;
+}
+
+.simpleForm__label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: rgb(84, 110, 122);
+}
+
+.simpleForm__input {
+    display: block;
+    width: 100%;
+    height: 42px;
+    font-size: 1rem;
+    color: rgv(84, 110, 122);
+    border-radius: 3px;
+    border: 1px solid rgb(151, 151, 151);
+    outline: none;
+    padding: 3px 10px;
+}
+
+.simpleForm__btn {
+    display: block;
+    background-color: rgb(43, 72, 231);
+    min-height: 49px;
+    width: 100%;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgb(43, 72, 231);
+    outline: 0;
+
+}
+
+.simpleForm__btn:active {
+    color: rgb(43,72,231);
+    background-color: transparent;
+    border: rgba(43, 72, 231. 0.9);
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.8rem;
+    text-align: center;
+}
